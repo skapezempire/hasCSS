@@ -1,0 +1,33 @@
+div:has(p){
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+}
+
+div:has(h2:empty){
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 196, 196);
+}
+
+div:has(a){
+    width: 200px;
+    height: 200px;
+    background-color: steelblue
+}
+
+div:has(.meow){
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+    color:white
+}
+
+
+div:has(#meow){
+    width: 200px;
+    height: 200px;
+    background-color: rgb(120, 6, 63);
+    color:white;
+    border-radius: 10px;
+}
